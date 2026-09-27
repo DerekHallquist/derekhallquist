@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<title>Filming Locations Map | Worldwide Shoots | Derek Hallquist</title>
+<meta name="description" content="Filming locations from two decades of shoots across six continents — documentary, broadcast and travel productions mapped from the Arctic to South America.">
+<link rel="canonical" href="https://derekhallquist.com/locations.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Filming Locations",
+  "url": "https://derekhallquist.com/locations.html",
+  "description": "A map of filming locations from two decades of documentary, broadcast and travel production across six continents.",
+  "about": {
+    "@type": "Person",
+    "name": "Derek Hallquist",
+    "url": "https://derekhallquist.com/",
+    "jobTitle": "Cinematographer, Director, Producer"
+  }
+}
+</script>
+<!-- Share-preview image: the same portrait card used site-wide. This is a bio
+     site, so every page shares Derek's photo rather than page-specific art —
+     a consistent face is what people recognise in a feed or a text thread.
+     Absolute URL is required; width/height let scrapers draw the large card
+     on first fetch. -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://derekhallquist.com/locations.html">
+<meta property="og:title" content="Filming Locations Map | Worldwide Shoots | Derek Hallquist">
+<meta property="og:description" content="Filming locations from two decades of shoots across six continents — documentary, broadcast and travel productions mapped from the Arctic to South America.">
+<meta property="og:image" content="https://derekhallquist.com/assets/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Derek Hallquist operating a Sony PMW-F3 camera in sub-zero conditions, frost on his beard">
+<meta property="og:site_name" content="Derek Hallquist">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Filming Locations Map | Worldwide Shoots | Derek Hallquist">
+<meta name="twitter:description" content="Filming locations from two decades of shoots across six continents — documentary, broadcast and travel productions mapped from the Arctic to South America.">
+<meta name="twitter:image" content="https://derekhallquist.com/assets/share-card.jpg">
+<meta name="twitter:image:alt" content="Derek Hallquist operating a Sony PMW-F3 camera in sub-zero conditions, frost on his beard">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0B0F14;
+    --surface: #121821;
+    --surface-2: #182029;
+    --ink: #E7ECEF;
+    --ink-dim: #8B98A3;
+    --line: #232C36;
+    --brass: #6F93A8;
+    --brass-dim: #3E5561;
+  }
+  *{ box-sizing: border-box; margin:0; padding:0; }
+  html{ scroll-behavior: smooth; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a{ color: inherit; text-decoration: none; }
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .wrap{ max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+  /* Nav — matches index.html and showreel.html: sticky bar, brand left,
+     links right, uppercase letterspaced links with a border-bottom hover. */
+  header{
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: rgba(11,15,20,0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 16px 32px;
+  }
+  .brand{
+    font-family:'Fraunces', serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    display:flex; align-items:center;
+    flex-shrink:0;
+  }
+  .nav-links{
+    display:flex;
+    gap: 20px;
+    list-style:none;
+    flex-shrink:0;
+  }
+  .nav-links li{ flex-shrink:0; }
+  .nav-links a{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: var(--brass);
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .nav-links a:hover, .nav-links a:focus-visible,
+  .nav-links a[aria-current="page"]{
+    color: var(--ink);
+    border-bottom-color: var(--brass);
+  }
+  .nav-toggle{ display:none; }
+
+  main{ padding: 72px 0 96px; }
+  .intro{ max-width: 620px; margin: 0 auto 48px; text-align: center; }
+  .kicker{ font-size: 14px; color: var(--brass); margin-bottom: 18px; }
+  h1{ font-size: clamp(36px, 6vw, 60px); line-height: 1.05; margin-bottom: 18px; }
+  .lede{ color: var(--ink-dim); font-size: 16px; line-height: 1.6; }
+
+  .map-frame{
+    position: relative;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 10;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .map-frame iframe{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  footer{
+    border-top: 1px solid var(--line);
+    padding: 40px 0;
+  }
+  .footer-row{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-links{ display:flex; gap:28px; list-style:none; }
+  .footer-links a{ font-size:14px; color: var(--ink-dim); }
+  .footer-links a:hover{ color: var(--ink); }
+  .footer-note{ font-size: 13px; color: var(--ink-dim); margin-top: 24px; }
+  footer .brand{ font-size:16px; font-family:'Fraunces', serif; }
+
+  @media (max-width: 860px){
+    .nav-links{
+      position: fixed; top: 60px; right: 30px;
+      width: max-content; max-width: calc(100vw - 76px);
+      z-index: 1001;
+      background: var(--surface);
+      flex-direction: column; align-items: flex-start; gap: 18px;
+      padding: 20px 28px;
+      transform: translateX(calc(100% + 40px));
+      transition: transform 0.3s ease;
+      border: 1px solid var(--brass-dim);
+    }
+    .nav-links.open{ transform: translateX(0); }
+    .nav-toggle{
+      display:flex; flex-direction:column; gap:5px;
+      width: 28px; background:none; border:0; cursor:pointer; z-index: 1002;
+    }
+    .nav-toggle span{ height:2px; background: var(--ink); width:100%; display:block; }
+    main{ padding: 56px 0 72px; }
+    .map-frame{ aspect-ratio: 4 / 5; }
+  }
+  @media (max-width: 560px){
+    .wrap{ padding: 0 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="index.html">Derek Hallquist</a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="showreel.html">Showreel</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="locations.html" aria-current="page">Locations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="intro">
+      <p class="kicker">Where the work has taken me</p>
+      <h1>Filming locations</h1>
+      <p class="lede">It has been an amazing privilege to travel the world capturing stories — every pin marks a shoot.</p>
+    </div>
+
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1nankYGICg9ZFZFcGIkSXNfbpzduS-98&ehbc=2E312F&noprof=1" loading="lazy" title="Derek Hallquist's filming locations map"></iframe>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row">
+      <span class="brand">Derek Hallquist</span>
+      <ul class="footer-links">
+        <li><a href="showreel.html">Showreel</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-note">&copy; <span id="year"></span> Derek Hallquist. Cinematographer, director, producer.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
